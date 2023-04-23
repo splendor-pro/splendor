@@ -4,7 +4,7 @@ Splendor is a prototype tool for static discovery of stored XSS from PHP source 
 It now supports two scanning methods: If the complete database query string is available in the source code, Splendor will use string analysis for database read/write location analysis of the tainted data (Direct method[1]). Otherwise Splendor performs a DAL analysis and uses a fuzzy matching way to get this information(Fuzzy matching method).
 
 ## Basis of analysis
-Our analysis is based on phpJoern[2]. 
+Our analysis is based on phpJoern[2]. The PHP source code should be parsed as an AST and a CPG created by phpJoern.
 
 
 ## Reference
