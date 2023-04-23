@@ -6,5 +6,5 @@ It now supports two scanning methods: If the complete database query string is a
 ## Basis of analysis
 Our analysis is based on phpJoern[2].
 
-[1] Dahse, Johannes and Thorsten Holz. “Static Detection of Second-Order Vulnerabilities in Web Applications.” USENIX Security Symposium (2014).
+[1] Dahse, Johannes and Thorsten Holz. “Static Detection of Second-Order Vulnerabilities in Web Applications.” USENIX Security Symposium (2014).<br>
 [2] https://github.com/malteskoruppa/phpjoern
