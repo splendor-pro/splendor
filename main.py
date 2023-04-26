@@ -18,7 +18,7 @@ def main(target_dir="", exist_db=False, exist_cpg=False):
     '''
     # preparation 1: data schema building
     print("{C}[!] Step 1: create the database schema...{R}".format(C=C.RED, R=C.RESET))
-    db_handler = DB_SCHEMA() 
+    db_handler = DB_SCHEMA()
     # pass the target dir to analysis
     if not exist_db:
         db_handler.create_db_schema(target_dir)
@@ -26,7 +26,7 @@ def main(target_dir="", exist_db=False, exist_cpg=False):
         db_handler.db_analysis()
         print("{C}[+] db schema analysis...ok{R}".format(C=C.CYAN, R=C.RESET))
 
-    # preparation 2 : cpg building 
+    # preparation 2 : cpg building
     print ("{C}[!] Step 2: create the cpg...{R}".format(C=C.RED, R=C.RESET))
     #
     if not exist_cpg:
